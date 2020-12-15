@@ -91,6 +91,8 @@ git reflog
 
 ```
 git remote add origin git@github.com:SuperYIP/PythonCode.git
+或
+git remote add origin https://github.com/SuperYIP/matlab.git
 ```
 
 把本地库的所有内容推送到远程库上
@@ -140,5 +142,11 @@ GitHub中重命名仓库后，需要在git中做相应修改
 ```
 git remote set-url origin git@github.com:SuperYIP/新仓库名.git
 git pull  #这个不知道是不是必须运行
+```
+
+#### Git提交文件夹下所有变化
+
+```
+git add -A
 ```
 
